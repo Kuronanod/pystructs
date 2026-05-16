@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0" , "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pystructs"
+version = "1.0.0"
+description = "A comprehensive Python library for Data Structures* and *Algorithms."
+readme = "README.md"
+authors = [
+    {name = "Thawankorn Suwannabon" , email = "thwalkrsuwrrnbl@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/Kuronanod/PyStructs"
+Repository = "https://github.com/Kuronanod/PyStructs"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pystructs*"]
