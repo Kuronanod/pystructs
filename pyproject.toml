@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0" , "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pystructs"
+name = "structcore"
 version = "1.0.0"
 description = "A comprehensive Python library for Data Structures* and *Algorithms."
 readme = "README.md"
@@ -19,9 +19,9 @@ classifiers = [
 requires-python = ">=3.8"
 
 [project.urls]
-Homepage = "https://github.com/Kuronanod/PyStructs"
-Repository = "https://github.com/Kuronanod/PyStructs"
+Homepage = "https://github.com/Kuronanod/structcore"
+Repository = "https://github.com/Kuronanod/structcore"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["pystructs*"]
+include = ["structcore*"]

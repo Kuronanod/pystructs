@@ -1,4 +1,4 @@
-##### PyStructs
+##### structcore
 
 A comprehensive Python library for **Data Structures** and **Algorithms**.
 
@@ -6,7 +6,7 @@ A comprehensive Python library for **Data Structures** and **Algorithms**.
 
 ```bash
 
-pip install pystructs
+pip install structcore
 
 ```
 
@@ -25,9 +25,26 @@ Python version 3.8 or higher
 - Graph (Directed/Undirected)
 - Trie
 
+### Available Algorithm
+
+Sort Type
+- BubbleSort
+- SelectionSort
+- InsertionSort
+- QuickSort
+- MergeSort
+- HeapSort
+
+Search Type
+- LinearSearch
+- BinarySearch
+- DepthFirstSearch
+- BreadthFirstSearch
+
 -------------------------------------------------------------------------------------
 
-## Linked List
+
+### Linked List
 # Private Methods
 - `depth_first_search`: Used for traversing data using Depth First Search within the Object
 - `breadth_first_search` : Used for traversing data using Breadth First Search within the Object
@@ -58,7 +75,7 @@ Python version 3.8 or higher
 
 -------------------------------------------------------------------------------------
 
-## Stack
+### Stack
 # Public Methods
 - `push`: Adds a new node to the top of the Object
 - `update`: Modifies the data of the top node in the Object
@@ -78,7 +95,7 @@ Python version 3.8 or higher
 
 -------------------------------------------------------------------------------------
 
-## Queue
+### Queue
 # Public Methods
 - `enqueue`: Adds a node to the front of the Object
 - `dequeue`: Removes a node from the rear of the Object
@@ -97,7 +114,7 @@ Python version 3.8 or higher
 
 -------------------------------------------------------------------------------------
 
-## Deque
+### Deque
 # Public Methods
 - `append`: Adds a node to the rear (tail) of the Object
 - `appendleft`: Adds a node to the front (head) of the Object
@@ -122,7 +139,7 @@ Python version 3.8 or higher
 
 -------------------------------------------------------------------------------------
 
-## Binary Search Tree
+### Binary Search Tree
 # Private Methods
 - `is_equal`: Checks whether two Objects are identical in both data and structure
 - `inorder_asc_helper`: Helper method to collect data in ascending order
@@ -154,7 +171,7 @@ Python version 3.8 or higher
 
 -------------------------------------------------------------------------------------
 
-## Heap
+### Heap
 Heap is stored in a Python List.  
 Values can be accessed using the following formulas, where `i` is the index of the element:
 - **parent** = `(i - 1) // 2`
@@ -194,7 +211,7 @@ Both types store data in an array based on the formulas above.
 
 -------------------------------------------------------------------------------------
 
-## Graph
+### Graph
 Graph is divided into two classes:
 - **Directed Graph**: edges have a direction (one-way)
 - **Undirected Graph**: edges are bidirectional (two-way)
@@ -230,7 +247,7 @@ Graph is divided into two classes:
 
 -------------------------------------------------------------------------------------
 
-## Trie
+### Trie
 # Private Methods
 - `collect_word`: Helper method to collect specific data from the Object and return it
 - `remove_helper`: Helper method to remove a word without disrupting the Object's structure
@@ -256,24 +273,6 @@ Graph is divided into two classes:
 - `__repr__`: Displays the Object type when the `repr()` function is called
 - `__bool__`: Defines whether the Object evaluates to `True` or `False` when used directly in an `if` statement
 - `__str__`: Displays all values within the Object
-
--------------------------------------------------------------------------------------
-
-### Available Algorithm
-
-Sort Type
-- BubbleSort
-- SelectionSort
-- InsertionSort
-- QuickSort
-- MergeSort
-- HeapSort
-
-Search Type
-- LinearSearch
-- BinarySearch
-- DepthFirstSearch
-- BreadthFirstSearch
 
 -------------------------------------------------------------------------------------
 
