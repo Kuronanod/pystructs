@@ -333,21 +333,22 @@ Graph is divided into two classes:
 
 ## How To Use
 
-import pystructs
+```python
+import structcore
 
-data = pystructs.LinkedList()
+data = structcore.LinkedList()
 data.append(20)
 print(data)
 
-message = pystructs.Trie()
+message = structcore.Trie()
 message.insert("Kuronanod")
 print(message.find("Kuronanod"))
 
 data = [2,41,4,2,5,7,4,8744,7,345,7]
-sorted_data = pystructs.quick_sort(data.copy())
-answer = pystructs.linear_search(sorted_data,8744)
+sorted_data = structcore.quick_sort(data.copy())
+answer = structcore.linear_search(sorted_data,8744)
 print(answer)
-
+```
 -------------------------------------------------------------------------------------
 
 ### License
