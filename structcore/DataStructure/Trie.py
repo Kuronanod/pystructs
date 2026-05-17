@@ -1,5 +1,6 @@
-from pystructs.DataStructure.Node import TrieNode
-from pystructs.DataStructure.Deque import Deque
+# Import Node For Trie
+from structcore.DataStructure.Node import TrieNode
+from structcore.DataStructure.Deque import Deque
 
 class Trie:
 

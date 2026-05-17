@@ -1,4 +1,5 @@
-from pystructs.DataStructure.Node import Node
+# Import Node For Stack
+from structcore.DataStructure.Node import Node
 
 class Stack:
 

@@ -1,5 +1,5 @@
-# Import Node ของ LinkedList
-from pystructs.DataStructure.Node import Node
+# Import Node For LinkedList
+from structcore.DataStructure.Node import Node
 
 class LinkedList:
 

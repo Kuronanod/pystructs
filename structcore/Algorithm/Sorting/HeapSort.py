@@ -1,4 +1,5 @@
-from pystructs.DataStructure.Heap import Heap
+# Import Heap For Heap Sort
+from structcore.DataStructure.Heap import Heap
 
 # Heap Sort Function : Sort items in object with heap sort algorithm
 

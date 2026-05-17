@@ -1,7 +1,8 @@
-from pystructs.DataStructure.BinarySearchTree import BinarySearchTree
-from pystructs.DataStructure.LinkedList import LinkedList
-from pystructs.DataStructure.Graph import Graph
-from pystructs.DataStructure.Trie import Trie
+# Import Helper Method For DepthFirstSearch
+from structcore.DataStructure.BinarySearchTree import BinarySearchTree
+from structcore.DataStructure.LinkedList import LinkedList
+from structcore.DataStructure.Graph import Graph
+from structcore.DataStructure.Trie import Trie
 
 # Depth First Search : Search item in object with depth first search algorithm
 

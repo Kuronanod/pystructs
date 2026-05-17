@@ -1,7 +1,8 @@
-from pystructs.DataStructure.BinarySearchTree import BinarySearchTree
-from pystructs.DataStructure.LinkedList import LinkedList
-from pystructs.DataStructure.Graph import Graph
-from pystructs.DataStructure.Trie import Trie
+# Import Helper Method For BreadthFirstSearch
+from structcore.DataStructure.BinarySearchTree import BinarySearchTree
+from structcore.DataStructure.LinkedList import LinkedList
+from structcore.DataStructure.Graph import Graph
+from structcore.DataStructure.Trie import Trie
 
 # Breadth First Search Function : Search item in object with breadth first search algorithm
 

@@ -1,5 +1,5 @@
-# Import Node ของ Deque
-from pystructs.DataStructure.Node import DequeNode
+# Import Node For Deque
+from structcore.DataStructure.Node import DequeNode
 
 # class (Deque)
 class Deque:

@@ -1,4 +1,5 @@
-from pystructs.DataStructure.Deque import Deque
+# Import Node For Graph Method
+from structcore.DataStructure.Deque import Deque
 
 class Graph:
 

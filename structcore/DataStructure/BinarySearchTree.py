@@ -1,5 +1,6 @@
-from pystructs.DataStructure.Node import BSTNode
-from pystructs.DataStructure.Deque import Deque
+# Import Node For Binary Search Tree 
+from structcore.DataStructure.Node import BSTNode
+from structcore.DataStructure.Deque import Deque
 
 class BinarySearchTree():
     
